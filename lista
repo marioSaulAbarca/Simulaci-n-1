@@ -1,20 +1,20 @@
 {
-   # Parámetros
+   # Parámetros {
    a = 81
    C = 89
    m = 100
    XO = 5
    n_iterations = 10 # Número de iteraciones
    # Inicializar la lista para almacenar los
-   valores
+   valores {
    valores = [XO]
    # Generar la secuencia
    for i in range(n_iterations - 1):
    Xn = valores[-1] # Obtener el último valor de la lista
    Xn_plus_1 = (a * Xn + c) % m #
    Calcular el siguiente valor valores.append(Xn_plus_1) # Agregar
-   el nuevo valor a la lista
-   # Imprimir los resultados
+   el nuevo valor a la lista {
+   # Imprimir los resultados {
     for i, valor in enumerate(valores):
      print(f|X_{i} = {valor}))
 
